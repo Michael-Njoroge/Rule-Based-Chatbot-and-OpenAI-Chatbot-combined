@@ -6,7 +6,7 @@ const chatbotCloseBtn = document.querySelector(".close-btn");
 
 
 let userMessage;
-const API_KEY = "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"; //replace with your api key
+const API_KEY = ""; //replace with your api key
 const createChatLi =  (message, className) => {
     //create a chat <li> element with passed message and className
     const chatLi = document.createElement("li");
